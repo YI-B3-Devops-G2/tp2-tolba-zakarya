@@ -1,0 +1,21 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "up": "docker-composer docker/Dockerfile",
+    "compose-prod": "docker-compose -f Docker/docker-compose.prod.yml up --build",
+    "compose-dev": "docker-compose -f Docker/docker-compose.dev.yml up --build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "expressworks": "^3.4.3",
+    "nodemon": "^2.0.2",
+    "pg": "^7.14.0",
+    "redis": "^2.8.0"
+  }
+}
