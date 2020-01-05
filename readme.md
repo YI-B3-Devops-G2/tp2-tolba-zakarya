@@ -6,7 +6,7 @@
 ----
 
 ### Projet
-- Le projet consiste à découvrir l'utilisation de Docker avec l'installation et la configuration d'une API simple.
+- Le projet consiste à découvrir l'utilisation de Docker avec l'installation et la configuration d'un projet API simple.
 
  ### Pré-requis
  * Docker 🐳
